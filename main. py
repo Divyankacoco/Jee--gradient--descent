@@ -1,0 +1,30 @@
+import numpy as np
+import pandas as pd
+
+"""
+JEE Mock Score Predictor
+Goal: Implement gradient descent from scratch to model score trends.
+Current status: Setting up data structure. Learning rate tuning next.
+"""
+
+# My JEE mock data - add your real scores here
+data = {
+    'test_no': [1, 2, 3],
+    'maths': [65, 72, 81],  # Change these to your last 3 mock scores
+    'physics': [60, 68, 75], 
+    'chemistry': [70, 74, 79]
+}
+
+df = pd.DataFrame(data)
+
+def cost_function():
+    # TODO: Implement MSE loss
+    pass
+
+def gradient_descent():
+    # TODO: Code derivatives from JEE calculus
+    pass
+
+if __name__ == "__main__":
+    print("Building gradient descent for JEE scores...")
+    print(df)
